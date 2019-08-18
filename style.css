@@ -19,7 +19,7 @@ body {
 
  .logo {
     position: relative;
-    margin-top: 3%;
+    margin-top: 2%;
     float: right;
 }
 .input{
@@ -57,7 +57,8 @@ body {
     position: relative;
     top:55px;
     height: 35px;
-    margin-right: 145px;
+    display: block;
+    right: 50px;
 }
 .container .header li {
     list-style: none;
@@ -79,7 +80,7 @@ body {
     width: 4px;
     height: 21px;
     background: url(images/menu_sep.png) no-repeat 0 0px;
-    margin: 0 16px;
+    margin: 0 13px;
 }
 .container .header ul li ul  {
     display: none;
@@ -129,3 +130,69 @@ body {
     margin: 5px 0px 5px 0px;
     text-align: center;
 }
+
+* {
+    box-sizing: border-box;
+}
+.categories {
+    display: inline-flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+.mrgn{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.pic {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-text {
+    background: url(images/hp_tab_text_bg.png) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    height: 100px;
+    overflow: hidden;
+    z-index: 10;
+    padding: 0px;
+    left: 38px;
+    bottom: 10px;
+    color: white;
+    text-align: right;
+    direction: rtl;
+}
+.img-text h3{
+    margin: 0;
+    font-size: 14px;
+    margin-top: 2px;
+    padding-right: 10px;
+}
+.img-text p {
+    margin: 0;
+    font-size: 13px;
+    padding-right: 10px
+}
+
+a.read-more {
+    float: left;
+    position: relative;
+    display: block;
+    padding-left: 11px;
+    margin-left: 5px;
+    text-decoration: underline;
+    background: url(images/read_more_white.png) no-repeat left;
+}
+a.read-more:hover {
+    color: #005CA0;
+    text-decoration: underline;
+    cursor: pointer;
+    background: url(images/read_more_blue.png) no-repeat left;
+}
+
