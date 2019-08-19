@@ -196,3 +196,38 @@ a.read-more:hover {
     background: url(images/read_more_blue.png) no-repeat left;
 }
 
+.cube {
+    position: relative;
+    padding-top: 10px;
+}
+
+.cube-title {
+    position: absolute;
+    top: 7px;
+    left: 130px;
+    color: #575757;
+    font-size: 14px;
+}
+
+.map {
+    position: absolute;
+    height: 120px;
+    top: 52px;
+    left: 44px;
+}
+
+.text-cube {
+    color: #72716d;
+    font-size: 13px;
+    direction: rtl;
+    display: block;
+}
+
+.area {
+    float: none;
+    margin-bottom: 8px;
+}
+
+a.yello-icon {
+    background: url(images/read_more_yellow.png) no-repeat left;
+}
