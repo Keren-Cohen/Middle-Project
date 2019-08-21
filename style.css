@@ -434,8 +434,7 @@ h4 {
 }
 
 .cube-text {
-    width: 230px;
-    position: absolute;
+    width: 267px;
     right: 25px;
     direction: rtl;
 }
@@ -444,6 +443,7 @@ h4 {
     font-size: 12px;
     color: #72716d;
     margin: 0 0 12px;
+    width: 90%;
 }
 
 .con {
