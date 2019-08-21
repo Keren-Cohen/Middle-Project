@@ -137,7 +137,7 @@ body {
 .categories {
     display: inline-flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 15px;
     width: 900px;
     margin-bottom: 10px;
 }
@@ -260,17 +260,33 @@ a.read-more:hover {
     background: url(images/small_cube_bg.png) no-repeat 0 0;
 }
 
-.cube-title {
+.cube-title-1 {
     position: absolute;
-    top: 7px;
-    left: 130px;
+    top: -2px;
+    left: 132px;
+    color: #575757;
+    font-size: 14px;
+}
+
+h3.cube-title-2 {
+    position: absolute;
+    top: -2px;
+    left: 148px;
+    color: #575757;
+    font-size: 14px;
+}
+
+h3.cube-title-3 {
+    position: absolute;
+    top: -2px;
+    left: 148px;
     color: #575757;
     font-size: 14px;
 }
 
 .map {
     position: absolute;
-    height: 120px;
+    height: 130px;
     top: 52px;
     left: 44px;
 }
@@ -295,8 +311,144 @@ a.yello-icon {
 .cubes-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .cubes-container .area a {
     color: #72716d;
+}
+
+.side-menu {
+    width: 122px;
+    margin-left: 22px;
+    float: right;
+    display: block;
+    position: relative;
+    margin-top: 50px;
+}
+
+.side-menu ul li a {
+    display: block;
+    width: 110px;
+    height: 36px;
+    padding: 9px 12px 0 0;
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #5c5c5c;
+    background: url(images/side_menu_sprite.png) no-repeat 0 0;
+}
+.side-menu ul li{
+    display: block;
+    width: 122px;
+    min-height: 36px;
+}
+
+img.banner {
+    position: absolute;
+    top: 49px;
+    right: 25px;
+    width: 243px;
+}
+
+.more-info {
+    color: #72716d;
+    font-size: 13px;
+    direction: rtl;
+    position: absolute;
+    top: 170px;
+    left: 39px;
+}
+
+img.details {
+    position: absolute;
+    top: 174px;
+    left: 26px;
+}
+
+.side-menu {
+    float: right;
+    width: 122px;
+    margin-top: 50px;
+    direction: rtl;
+    position: relative;
+    left: 180px;
+}
+
+a.selected {
+    background-position: -122px 0;
+}
+
+.side-menu ul li a.selected:hover {
+    background-position: -122px 0;
+}
+
+.content {
+    width: 440px;
+    display: block;
+    position: absolute;
+    direction: rtl;
+    top: 115px;
+    left: 625px;
+    margin-bottom: 50px;
+}
+
+.breadcrumbs {
+    color: #5c5c5c;
+    font-size: 12px;
+}
+
+.about {
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 12px;
+    padding-bottom: 4px
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #005ca0;
+}
+
+.about-text {
+    font-size: 12px;
+    color: #72716d;
+    margin: 0 0 12px;
+    text-align: justify;
+}
+
+.cube-side {
+    position: relative;
+    top: 110px;
+    padding-top: 10px;
+    width: 292px;
+    height: 216px;
+    background: url(images/small_cube_bg.png) no-repeat 0 0;
+}
+
+.cube-side {
+    position: absolute;
+    text-align: right;
+    padding-right: 13px;
+    top: 180px;
+}
+
+.cube-side h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #005ca0;
+    margin:0 10px;
+}
+
+.cube-text {
+    width: 230px;
+    position: absolute;
+    right: 25px;
+}
+
+.cube-text p {
+    font-size: 12px;
+    color: #72716d;
+    margin: 0 0 12px;
 }
