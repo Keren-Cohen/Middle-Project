@@ -452,3 +452,61 @@ h4 {
     color: #72716d;
     margin: 0 0 12px;
 }
+
+.con {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.cube-side side {
+    height: 175px;
+}
+
+p.con {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.cube-side.side {
+    height: 175px;
+}
+
+.cube-side.side2 {
+    margin-top: 200px;
+    height: 175px;
+    margin-bottom: 50px;
+    direction: rtl;
+}
+
+.cube-text a {
+    color: #005ca0;
+    font-size: 13px;
+}
+
+.contact-form {
+    position: relative;
+    padding-top: 10px;
+    width: 385px;
+    height: 357px;
+    background: url(images/contact_form_bg.png) no-repeat 0 0;
+}
+
+
+.contact-container {
+    width: 347px;
+    padding-right: 30px;
+}
+
+
+.contact-container h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #005ca0;
+}
+
+.contact-container p {
+    font-size: 12px;
+    color: #72716d;
+    margin: 0 0 12px;
+}
